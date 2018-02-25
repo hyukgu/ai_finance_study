@@ -36,7 +36,7 @@ The methodology considered the short-term historical stock prices as well as the
 
 1. **Equation**  
 
-    **_y(k) = f(y(k-1),y(k-2),y(k-3), ...,y(k-n),D(k))_**   
+    ![SMIPUANN_equ_3](https://github.com/aloefreshjihun/ai_finance_study/blob/master/summary_implementation/stock_market_index_prediction_using_artificial_neural_network/figure/SMIPUANN_equ_3.jpg)   
     - **y(k)** : the stock price at time k.
     - **n** : the numberof historical days.
     - **D(k)** : the day of week.
