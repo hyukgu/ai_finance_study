@@ -1,4 +1,4 @@
-# artificial_intelligence_finance_study
+# ai_finance_study
 This repository is my summary and implementation of research papers, application of artificial intelligence in finance, especially trading system.
 
 # List
