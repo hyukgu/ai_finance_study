@@ -36,6 +36,7 @@ The methodology considered the short-term historical stock prices as well as the
 
 1. **Equation**  
 
+    The overal procedure is governed by the following equation.  
     ![SMIPUANN_equ_3](https://github.com/aloefreshjihun/ai_finance_study/blob/master/summary_implementation/stock_market_index_prediction_using_artificial_neural_network/figure/SMIPUANN_equ_3.jpg)   
     - **y(k)** : the stock price at time k.
     - **n** : the numberof historical days.
@@ -49,10 +50,15 @@ The methodology considered the short-term historical stock prices as well as the
     
 3. **Performance measure**  
 
-    The determinant coefficient (**R<sup>2</sup>**) and the mean suqre error (**MSE**) of modeled otuput.  
-    - **R<sup>2</sup>**
+    The determinant coefficient (**R<sup>2</sup>**) and the mean suqre error (**MSE**) of modeled otuput were used to measure performance.  
+    **R<sup>2</sup>**  
+    ![SMIPUANN_equ_4](https://github.com/aloefreshjihun/ai_finance_study/blob/master/summary_implementation/stock_market_index_prediction_using_artificial_neural_network/figure/SMIPUANN_equ_4.jpg)  
+    **MSE**  
+    ![SMIPUANN_equ_4](https://github.com/aloefreshjihun/ai_finance_study/blob/master/summary_implementation/stock_market_index_prediction_using_artificial_neural_network/figure/SMIPUANN_equ_5.jpg)    
         
-    - **MSE**
+    - **y<sub>exp</sub>** : experimental values.
+    - **y<sub>pred</sub>** : predicted vlaues.
+    - **M** : the total number of data.
         
     
 
